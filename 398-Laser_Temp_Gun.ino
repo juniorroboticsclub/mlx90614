@@ -1,6 +1,3 @@
-//MN Maker
-//Laser Temp Gun
-//10.6.19
 
 #include <Wire.h>
 #include <Adafruit_MLX90614.h>
@@ -79,7 +76,7 @@ void loop() {
     digitalWrite(Laser_Pin, LOW);
   
     display.clearDisplay();
-    display.setTextSize(2);  //Size 2 means each pixel is 12 width and 16 high
+    display.setTextSize(2);
     display.setCursor(35, 10);
     display.print("-----");
     display.setCursor(105, 10);
